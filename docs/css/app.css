@@ -1,0 +1,17 @@
+body {
+
+}
+
+#events {
+  margin-bottom: 20px;
+  animation: vibe 3s ease;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+  color: #555;
+}
+
+@keyframes vibe {
+  0% {background-color: silver;}
+  50% {background-color: beige;}
+  100% {background-color: silver;}
+}
